@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg SYSTEM "cataleg.dtd">
+
+<cataleg>
+
+  <single codi="S001">
+    <titol>Imagine</titol>
+    <pais>UK</pais>
+    <idioma>Anglès</idioma>
+    <genere>Pop</genere>
+    <grup>John Lennon</grup>
+    <membres>
+      <membre sexe="home">
+        <nom>John Lennon</nom>
+      </membre>
+    </membres>
+    <durada>3.1</durada>
+  </single>
+
+  <album codi="A001">
+    <titol>Thriller</titol>
+    <pais>USA</pais>
+    <idioma>Anglès</idioma>
+    <genere>Pop</genere>
+    <genere>Soul</genere>
+    <grup>Michael Jackson</grup>
+    <membres>
+      <membre sexe="home">
+        <nom>Michael Jackson</nom>
+      </membre>
+    </membres>
+    <numero_cancons>2</numero_cancons>
+    <titols_cancons>
+      <canco numero="1">
+        <titol_canco>Thriller</titol_canco>
+        <durada_canco>5.57</durada_canco>
+      </canco>
+      <canco numero="2">
+        <titol_canco>Beat It</titol_canco>
+        <durada_canco>4.18</durada_canco>
+      </canco>
+    </titols_cancons>
+  </album>
+
+</cataleg>
