@@ -1,0 +1,27 @@
+{
+  "alumne": [
+    {
+      "id": 1,
+      "nom": "Joan",
+      "llinatges": "Garcia",
+      "data_matricula": "2023-09-01",
+      "curs": "DAM"
+    }
+  ],
+  "professor": [
+    {
+      "id": 200,
+      "nom": "Pere",
+      "llinatges": "Ramirez",
+      "data_incorporacio": "2018-09-01",
+      "departament": "Informàtica",
+      "assignatura": [
+        {
+          "id_assignatura": 1,
+          "nom_assignatura": "Bases de Dades",
+          "cicle": "DAM"
+        }
+      ]
+    }
+  ]
+}
