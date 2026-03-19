@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:output method="xml" indent="yes" encoding="UTF-8"/>
+
+    <xsl:template match="/">
+        <client_database>
+            <customers>
+                <xsl:for-each select="resultset/row">
+                    <customer id="{field[@name='customerNumber']}">
+                        <company><xsl:value-of select="field[@name='customerName']"/></company>
+                        <contact_person>
+                            <name><xsl:value-of select="field[@name='contactFirstName']"/> <xsl:value-of select="field[@name='contactLastName']"/></name>
+                            <phone><xsl:value-of select="field[@name='phone']"/></phone>
+                        </contact_person>
+                        <location>
+                            <address><xsl:value-of select="field[@name='addressLine1']"/></address>
+                            <city><xsl:value-of select="field[@name='city']"/></city>
+                            <country><xsl:value-of select="field[@name='country']"/></country>
+                        </location>
+                    </customer>
+                </xsl:for-each>
+            </customers>
+        </client_database>
+    </xsl:template>
+</xsl:stylesheet>

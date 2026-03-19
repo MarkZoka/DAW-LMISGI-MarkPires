@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<financial_records>
+  <all_payments>
+    <payment_entry>
+      <transaction>
+        <check_number>HQ336336</check_number>
+        <date>2004-10-19</date>
+        <amount currency="USD">6066.78</amount>
+      </transaction>
+      <client_info>
+        <id>103</id>
+        <name>Atelier graphique</name>
+      </client_info>
+    </payment_entry>
+    </all_payments>
+</financial_records>

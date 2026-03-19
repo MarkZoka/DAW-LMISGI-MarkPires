@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<resultset statement="SELECT * FROM classicmodels.payments join classicmodels.customers using (customerNumber)">
+  <row>
+    <field name="customerNumber">103</field>
+    <field name="checkNumber">HQ336336</field>
+    <field name="paymentDate">2004-10-19</field>
+    <field name="amount">6066.78</field>
+    <field name="customerName">Atelier graphique</field>
+    <field name="contactLastName">Schmitt</field>
+    </row>
+</resultset>
