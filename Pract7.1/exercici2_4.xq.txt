@@ -1,0 +1,4 @@
+for $r in //rebut
+let $total_articles := sum($r/linies/producte/quantitat)
+where ($total_articles = 2 or $total_articles = 50)
+return data($r/@numero)
