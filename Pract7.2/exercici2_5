@@ -1,0 +1,5 @@
+let $mitjana := avg(collection('Pires')//empleat/salari)
+for $e in collection('Pires')//empleat
+where $e/salari > $mitjana
+order by xs:integer($e/salari) descending
+return concat($e/nom, ' ', $e/llinatges, ', ', $e/salari)

@@ -1,0 +1,4 @@
+let $max_edat := max(collection('Pires')//empleat/edat)
+for $e in collection('Pires')//empleat
+where $e/edat = $max_edat
+return concat($e/nom, ' ', $e/llinatges)
