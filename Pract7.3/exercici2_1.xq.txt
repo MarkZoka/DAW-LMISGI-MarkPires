@@ -1,0 +1,2 @@
+SELECT ExtractValue(datos_xml, '//Employee[Branch="Headquarters"]/Name') AS Empleados_Headquarters 
+FROM empleados_xml;

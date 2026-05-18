@@ -1,0 +1,2 @@
+SELECT ExtractValue(datos_xml, 'count(//Employee[Department="Operations"])') AS Cantidad_Operaciones 
+FROM empleados_xml;

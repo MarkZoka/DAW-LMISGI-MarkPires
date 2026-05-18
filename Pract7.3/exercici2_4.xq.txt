@@ -1,0 +1,2 @@
+SELECT ExtractValue(datos_xml, '//Employee[@emp_id="7"]/StartDate') AS Fecha_Inicio 
+FROM empleados_xml;
