@@ -1,0 +1,3 @@
+SELECT id, json_data 
+FROM transactions 
+WHERE JSON_EXTRACT(json_data, '$.amount') > 200;
